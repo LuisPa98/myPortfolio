@@ -1,14 +1,20 @@
 import React from 'react'
+import { useState, useEffect } from 'react'
+import "./infoFooter.css"
 
 function InfoFooter() {
   return (
-    <div>
         <footer className='infoBar'>
-          <ul>
-            <li></li>
-          </ul>
+          <div className='menu'>
+            <h3>Click Me!</h3>
+          </div>
+          <nav className='infoMenu'>
+            <li>About Me</li>
+            <li>Technology Used</li>
+            <li>Art By</li>
+          </nav>
         </footer>
-    </div>
+
   )
 }
 

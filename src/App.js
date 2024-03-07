@@ -4,7 +4,7 @@ import InfoFooter from "./infoFooter/InfoFooter.jsx";
 
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       <h3>Welcome to my Portfolio</h3>
       <Icons/>
       <InfoFooter/>

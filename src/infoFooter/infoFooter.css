@@ -1,0 +1,13 @@
+.infoBar {
+    grid-area: g;
+    display: grid;
+    background-color: #6C6C6C;
+}
+
+.menu {
+
+}
+
+.infoMenu {
+    display: none;
+}
