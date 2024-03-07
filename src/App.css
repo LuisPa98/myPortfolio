@@ -1,0 +1,20 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 22.5% 22.5% 22.5% 22.5% 10% ;
+  grid-template-areas: 
+  "a e e e e"
+  "b e e e e"
+  "c e e e e"
+  "d e e e e"
+  "f f f f f"
+  ;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background-color: aquamarine;
+}
