@@ -1,16 +1,18 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  border: 0;
+
 }
 
 body {
-  margin: 0;
   background-color: #00807f;
 }
 
 .app {
   display: grid;
   grid-template-columns: 20% 20% 20% 20% 20%;
-  grid-template-rows: 18% 18% 18% 18% 18% 10% ;
+  grid-template-rows: 2.5fr 2.5fr 2.5fr 2.5fr 2.5fr .9fr ;
   grid-template-areas: 
   "a e e e e"
   "b e e e e"
@@ -21,4 +23,6 @@ body {
   ;
   width: 100vw;
   height: 100vh;
+  margin: 0;
+  border: 0;
 }

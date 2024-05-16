@@ -4,11 +4,11 @@ import "./infoFooter.css"
 
 function InfoFooter() {
   return (
-        <footer className='infoBar'>
-          <div className='menu'>
+        <footer className='infoFooterBar'>
+          <div className='footerMenu'>
             <h3>Click Me!</h3>
           </div>
-          <nav className='infoMenu'>
+          <nav className='infoFooterMenu'>
             <li>About Me</li>
             <li>Technology Used</li>
             <li>Art By</li>

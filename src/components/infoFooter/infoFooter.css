@@ -1,0 +1,18 @@
+.infoFooterBar {
+    grid-area: g;
+    display: flex;
+    background-color: #6C6C6C;
+    border: 0;
+    margin: 0;
+    align-items: center;
+}
+
+.infoFooterMenu {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.infoFooterMenu {
+    display: none;
+}

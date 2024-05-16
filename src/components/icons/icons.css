@@ -1,0 +1,278 @@
+.resumeIconsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: b;
+    width: 40%;
+    height: 100%;
+}
+
+.resumeIconText{
+    
+}
+
+.projectsIconsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: c;
+    width: 40%;
+    height: 100%;
+}
+
+.gitHubIconsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: d;
+    width: 40%;
+    height: 100%;
+}
+
+.linkedInIconsDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    grid-area: f;
+    width: 40%;
+    height: 100%;
+}
+
+.resumeIcons{
+    background-image: url('../../../public/iconAnimation/resume/resumestillframe.png');
+    background-repeat: no-repeat;
+    background-size: 55px;
+    background-position: center;
+    background-color: #00807f;
+    /* display: flex;
+    position: absolute; */
+    width: 35px;
+    height: 45px;
+    z-index: 10;
+}
+
+.resumeIcons:hover{
+   animation: resumeAnimation 2s; 
+}
+
+@keyframes resumeAnimation {
+    0% {
+        background-image: url('../../../public/iconAnimation/resume/resumestillframe.png');            
+    }
+    10% {
+        background-image: url('../../../public/iconAnimation/resume/resume1.png');
+    }
+    20% {
+        background-image: url('../../../public/iconAnimation/resume/resume2.png');
+    }
+    30% {
+        background-image: url('../../../public/iconAnimation/resume/resume3.png');
+    }
+    40% {
+        background-image: url('../../../public/iconAnimation/resume/resume4.png');
+    }
+    50% {
+        background-image: url('../../../public/iconAnimation/resume/resume5.png');
+    }
+    60% {
+        background-image: url('../../../public/iconAnimation/resume/resume6.png');
+    }
+    70% {
+        background-image: url('../../../public/iconAnimation/resume/resume7.png');
+    }
+    80% {
+        background-image: url('../../../public/iconAnimation/resume/resume8.png');
+    }
+    90% {
+        background-image: url('../../../public/iconAnimation/resume/resume9.png');
+    }
+    100% {
+        background-image: url('../../../public/iconAnimation/resume/resume9.png');
+    }
+}
+
+.projectsIcons{
+    background-image: url('../../../public//iconAnimation/projects/Prostillframe.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    background-color: #00807f;
+    /* display: flex;
+    position: absolute; */
+    width: 48px;
+    height: 50px;
+    z-index: 10;
+}
+
+.projectsIcons:hover{
+    animation: projectAnimation 2s;
+}
+
+@keyframes projectAnimation {
+    0%{
+        background-image: url('../../../public/iconAnimation/projects/Prostillframe.png');
+    }
+    10%{
+        background-image: url('../../../public/iconAnimation/projects/pro1.png');
+    }
+    20%{
+        background-image: url('../../../public/iconAnimation/projects/pro2.png');
+    }
+    30%{
+        background-image: url('../../../public/iconAnimation/projects/pro3.png');
+    }
+    40%{
+        background-image: url('../../../public/iconAnimation/projects/pro4.png');
+    }
+    50%{
+        background-image: url('../../../public/iconAnimation/projects/pro5.png');
+    }
+    60%{
+        background-image: url('../../../public/iconAnimation/projects/pro6.png');
+    }
+    70%{
+        background-image: url('../../../public/iconAnimation/projects/pro7.png');
+    }
+}
+
+.gitHubIcons{
+    background-image: url('../../../public/iconAnimation/github/gitstillframe.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    background-color: #00807f;
+    /* display: flex;
+    position: absolute; */
+    grid-area: d;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 5px;
+    z-index: 10;
+    border-radius: 46%;
+}
+
+.gitHubIcons:hover {
+    animation: gitHubAnimation 2.5s;
+}
+
+@keyframes gitHubAnimation {
+    0%{
+        background-image: url('../../../public/iconAnimation/github/gitstillframe.png');
+    }
+    5%{
+        background-image: url('../../../public/iconAnimation/github/git1.png');
+    }
+    10%{
+        background-image: url('../../../public/iconAnimation/github/git2.png');
+    }
+    15%{
+        background-image: url('../../../public/iconAnimation/github/git3.png');
+    }
+    20%{
+        background-image: url('../../../public/iconAnimation/github/git4.png');
+    }
+    25%{
+        background-image: url('../../../public/iconAnimation/github/git5.png');
+    }
+    30%{
+        background-image: url('../../../public/iconAnimation/github/git6.png');
+    }
+    35%{
+        background-image: url('../../../public/iconAnimation/github/git7.png');
+    }
+    40%{
+        background-image: url('../../../public/iconAnimation/github/git8.png');
+    }
+    45%{
+        background-image: url('../../../public/iconAnimation/github/git9.png');
+    }
+    50%{
+        background-image: url('../../../public/iconAnimation/github/git10.png');
+    }
+    55%{
+        background-image: url('../../../public/iconAnimation/github/git11.png');
+    }
+    60%{
+        background-image: url('../../../public/iconAnimation/github/git12.png');
+    }
+    65%{
+        background-image: url('../../../public/iconAnimation/github/git13.png');
+    }
+    70%{
+        background-image: url('../../../public/iconAnimation/github/git14.png');
+    }
+    75%{
+        background-image: url('../../../public/iconAnimation/github/git15.png');
+    }
+    80%{
+        background-image: url('../../../public/iconAnimation/github/git16.png');
+    }
+    85%{
+        background-image: url('../../../public/iconAnimation/github/git17.png');
+    }
+    90%{
+        background-image: url('../../../public/iconAnimation/github/git18.png');
+    }
+    95%{
+        background-image: url('../../../public/iconAnimation/github/git19.png');
+    }
+}
+
+.linkedInIcons{
+    background-image: url('../../../public/iconAnimation/linkedin/Instillframe.png');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: center;
+    background-color: #00807f;
+    /* display: flex;
+    position: absolute; */
+    grid-area: f;
+    width: 46px;
+    height: 45px;
+    margin-bottom: 5px;
+    border-radius: 18%; 
+}
+
+.linkedInIcons:hover{
+    animation: linkedInAnimation 2s;
+}
+
+@keyframes linkedInAnimation {
+    0%{
+        background-image: url('../../../public/iconAnimation/linkedin/Instillframe.png');
+    }
+    10%{
+        background-image: url('../../../public/iconAnimation/linkedin/In1.png');
+    }
+    20%{
+        background-image: url('../../../public/iconAnimation/linkedin/In2.png');
+    }
+    30%{
+        background-image: url('../../../public/iconAnimation/linkedin/In3.png');
+    }
+    40%{
+        background-image: url('../../../public/iconAnimation/linkedin/In4.png');
+    }
+    50%{
+        background-image: url('../../../public/iconAnimation/linkedin/In5.png');
+    }
+    60%{
+        background-image: url('../../../public/iconAnimation/linkedin/In6.png');
+    }
+    70%{
+        background-image: url('../../../public/iconAnimation/linkedin/In7.png');
+    }
+    80%{
+        background-image: url('../../../public/iconAnimation/linkedin/In8.png');
+    }
+    90%{
+        background-image: url('../../../public/iconAnimation/linkedin/In9.png');
+    }
+    100%{
+        background-image: url('../../../public/iconAnimation/linkedin/In10.png');
+    }
+}
