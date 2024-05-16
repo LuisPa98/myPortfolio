@@ -6,13 +6,14 @@ function InfoFooter() {
   return (
         <footer className='infoFooterBar'>
           <div className='footerMenu'>
-            <h3>Click Me!</h3>
+            <h3 className='footerMenuButton'>Click Me!</h3>
           </div>
           <nav className='infoFooterMenu'>
             <li>About Me</li>
             <li>Technology Used</li>
             <li>Art By</li>
           </nav>
+          <div className='footerDateTime'>Date/Time</div>
         </footer>
 
   )

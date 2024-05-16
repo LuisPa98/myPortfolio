@@ -2,50 +2,73 @@ import {useState} from 'react'
 import "./icons.css"
 
 function Icons() {
-  const [showModal, setShowModal] = useState(false);
+  const [showResumeModal, setShowResumeModal] = useState(false);
+  const [showProjectModal, setShowProjectModal] = useState(false);
 
-  const openModal = () => {
-    setShowModal(true)
+  const openResumeModal = () => {
+    setShowResumeModal(true)
   }
 
-  const closeModal = () => {
-    setShowModal(false)
+  const closeResumeModal = () => {
+    setShowResumeModal(false)
   }
 
+  const openProjectModal = () => {
+    setShowProjectModal(true)
+  }
+
+  const closeProjectModal = () => {
+    setShowProjectModal(false)
+  }
 
   return (
     < >
       <div className='projectsIconsDiv'>
         <button 
         className="projectsIcons"
-        onClick={openModal}
+        onClick={openProjectModal}
         >
         </button>
-        <p className='projectIconText'>Projects</p>
+        <p className='projectIconText iconText'>Projects</p>
       </div>
-        {showModal && (
-          <div>Project</div>
+        {showProjectModal && (
+          <div className='projectModalWindow'>
+            <div>Project</div>
+            <button
+            className='closeProjectModal'
+            onClick={closeProjectModal}
+            >
+
+            </button>
+          </div>
         )}
       <div className='resumeIconsDiv'>
         <button 
         className="resumeIcons"
-        onClick={openModal}
+        onClick={openResumeModal}
         >
         </button>
-        <p className='resumeIconText'>Resume</p>
+        <p className='resumeIconText iconText'>Resume</p>
       </div>
-      {showModal && (
-        <div>Resume</div>
+      {showResumeModal && (
+        <div className='resumeModalWindow'>
+          <div>Resume</div>
+          <button
+          className="closeResumeModal"
+          onClick={closeResumeModal}>
+
+          </button>
+        </div>
       )}
       <div className='gitHubIconsDiv'>
         <button className="gitHubIcons">
         </button>
-        <p className='gitHubIconText'>GitHub</p>
+        <p className='gitHubIconText iconText'>GitHub</p>
       </div>
       <div className='linkedInIconsDiv'>
         <button className='linkedInIcons'>
         </button>
-        <p className='linkedInIconText'>LinkedIn</p>
+        <p className='linkedInIconText iconText'>LinkedIn</p>
       </div>
     </>
   )

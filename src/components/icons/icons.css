@@ -4,12 +4,12 @@
     align-items: center;
     justify-content: center;
     grid-area: b;
-    width: 40%;
-    height: 100%;
+    width: 68.59px;
+    height: 125.53px;
 }
 
-.resumeIconText{
-    
+.iconText{
+    color: white
 }
 
 .projectsIconsDiv{
@@ -18,8 +18,8 @@
     align-items: center;
     justify-content: center;
     grid-area: c;
-    width: 40%;
-    height: 100%;
+    width: 68.59px;
+    height: 125.53px;
 }
 
 .gitHubIconsDiv{
@@ -28,8 +28,8 @@
     align-items: center;
     justify-content: center;
     grid-area: d;
-    width: 40%;
-    height: 100%;
+    width: 68.59px;
+    height: 125.53px;
 }
 
 .linkedInIconsDiv{
@@ -38,8 +38,8 @@
     align-items: center;
     justify-content: center;
     grid-area: f;
-    width: 40%;
-    height: 100%;
+    width: 68.59px;
+    height: 125.53px;
 }
 
 .resumeIcons{
@@ -48,8 +48,6 @@
     background-size: 55px;
     background-position: center;
     background-color: #00807f;
-    /* display: flex;
-    position: absolute; */
     width: 35px;
     height: 45px;
     z-index: 10;
@@ -101,8 +99,6 @@
     background-size: 50px;
     background-position: center;
     background-color: #00807f;
-    /* display: flex;
-    position: absolute; */
     width: 48px;
     height: 50px;
     z-index: 10;
@@ -145,8 +141,6 @@
     background-size: 50px;
     background-position: center;
     background-color: #00807f;
-    /* display: flex;
-    position: absolute; */
     grid-area: d;
     width: 50px;
     height: 50px;
@@ -228,8 +222,6 @@
     background-size: 50px;
     background-position: center;
     background-color: #00807f;
-    /* display: flex;
-    position: absolute; */
     grid-area: f;
     width: 46px;
     height: 45px;
